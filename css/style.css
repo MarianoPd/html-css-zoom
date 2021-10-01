@@ -4,8 +4,79 @@
     box-sizing: border-box;
 }
 
-header{
-    display: fixed;
-    background-color: black;
-    height: 10vh;
+body{
+    font-family: 'Lato', sans-serif;
+    color: white;
 }
+
+header{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    
+}
+
+header button{
+    float: right;
+    background-color: #4a4a4a;
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    border-color: #4a4a4a;
+}
+
+main{
+    background-color: blue;
+    overflow: auto;
+    height: calc(100vh - 160px);
+    width: 100%;
+    border-color: none;
+}
+
+
+footer{    
+    background-color: #222222;
+    height: 80px;
+    width: 100%;  
+    display: flex; 
+    justify-content: space-between; 
+}
+
+footer > *{
+    display: flex;
+    align-items: center;
+}
+
+footer .icon{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.icon i{
+    display: block;
+    font-size: 25px;
+}
+
+.green{
+    color: #4bc800;
+}
+
+.icon span{
+    display: block;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+footer .right{
+    height: 100%;
+    color: red; 
+    background-color: #4a4a4a;
+    padding: 0 20px;   
+}
+
+
+
